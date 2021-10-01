@@ -24,7 +24,7 @@ import re
 from collections import Counter
 from operator import itemgetter
 
-import util_stat as thinkplot
+import util_plot as thinkplot
 
 import numpy as np
 import pandas
@@ -2640,6 +2640,7 @@ class HypothesisTest(object):
         self.actual = self.TestStatistic(data)
         self.test_stats = None
         self.test_cdf = None
+        print(self.actual)
 
     def PValue(self, iters=1000):
         """Computes the distribution of the test statistic and p-value.
