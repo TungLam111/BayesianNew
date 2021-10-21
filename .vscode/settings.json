@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\HH\\Anaconda3\\envs\\lam123\\python.exe"
+    "python.pythonPath": "c:\\python\\python36\\python.exe",
+    "python.languageServer": "Pylance",
+    "jupyter.jupyterServerType": "local",
 }
